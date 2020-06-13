@@ -1,9 +1,11 @@
+import java.math.BigDecimal;
+
 public class Product {
     private int id;
     private String nazwa;
-    private Integer cena;
+    private BigDecimal cena;
 
-    public Product(int id, String nazwa, Integer cena){
+    public Product(int id, String nazwa, BigDecimal cena){
         this.id = id;
         this.nazwa = nazwa;
         this.cena = cena;
@@ -17,7 +19,7 @@ public class Product {
         return nazwa;
     }
 
-    public Integer getCena() {
+    public BigDecimal getCena() {
         return cena;
     }
 }
