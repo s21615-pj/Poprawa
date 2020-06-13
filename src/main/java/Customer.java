@@ -10,4 +10,11 @@ public class Customer {
         kupioneProdukty = new ArrayList();
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public List<Product> getKupioneProdukty() {
+        return kupioneProdukty;
+    }
 }

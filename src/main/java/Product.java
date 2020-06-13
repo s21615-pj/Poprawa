@@ -22,4 +22,13 @@ public class Product {
     public BigDecimal getCena() {
         return cena;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", nazwa='" + nazwa + '\'' +
+                ", cena=" + cena +
+                '}';
+    }
 }
